@@ -1,10 +1,8 @@
 package com.captech.jhong.popularmovies.model;
 
 import android.content.Context;
-import android.util.Log;
 
 import com.captech.jhong.popularmovies.AppConstants;
-import com.captech.jhong.popularmovies.BuildConfig;
 import com.captech.jhong.popularmovies.bus.BusProvider;
 import com.captech.jhong.popularmovies.bus.GetDiscoverMovieResponseEvent;
 import com.captech.jhong.popularmovies.network.HttpResponseStatus;
@@ -102,9 +100,6 @@ public class GetDiscoverMovieRequest extends NetworkRequest implements Callback<
             bus.post(event);
         } else {
             int statusCode = response.code();
-            if (BuildConfig.DEBUG){
-                Log.i("LAC", "onResponse, else, " + statusCode);
-            }
             GetDiscoverMovieResponseEvent event = new GetDiscoverMovieResponseEvent(movieDiscoverResponse);
             event.setHttpStatusCode(response.code());
             bus.post(event);
@@ -113,7 +108,6 @@ public class GetDiscoverMovieRequest extends NetworkRequest implements Callback<
 
     @Override
     public void onFailure(Throwable t) {
-        Log.i("FAIL", t.getMessage());
         GetDiscoverMovieResponse movieDiscoverResponse = new GetDiscoverMovieResponse();
 
         GetDiscoverMovieResponseEvent event = new GetDiscoverMovieResponseEvent(movieDiscoverResponse);
