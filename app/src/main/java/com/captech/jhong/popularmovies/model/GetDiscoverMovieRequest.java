@@ -99,7 +99,6 @@ public class GetDiscoverMovieRequest extends NetworkRequest implements Callback<
             event.setHttpStatusCode(response.code());
             bus.post(event);
         } else {
-            int statusCode = response.code();
             GetDiscoverMovieResponseEvent event = new GetDiscoverMovieResponseEvent(movieDiscoverResponse);
             event.setHttpStatusCode(response.code());
             bus.post(event);

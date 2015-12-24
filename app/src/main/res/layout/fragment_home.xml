@@ -19,6 +19,7 @@
         android:id="@+id/fragment_swipe_refresh_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -26,11 +27,13 @@
             android:id="@+id/check_internet"
             android:layout_margin="8dp"
             android:text="@string/check_internet"
-            android:visibility="gone"
-            android:layout_width="wrap_content"
             android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
+
     <android.support.v7.widget.RecyclerView
         android:visibility="invisible"
         android:id="@+id/rv_home"
