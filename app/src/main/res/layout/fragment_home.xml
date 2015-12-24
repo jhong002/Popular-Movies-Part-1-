@@ -18,10 +18,12 @@
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/fragment_swipe_refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
     <RelativeLayout
+
         android:layout_width="match_parent"
+        android:clickable= "true"
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/check_internet"
