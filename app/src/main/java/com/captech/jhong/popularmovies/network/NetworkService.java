@@ -1,10 +1,12 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
 
 import android.app.IntentService;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
+import com.captech.jhong.popularmovies.BuildConfig;
+import com.captech.jhong.popularmovies.network.request.NetworkRequest;
 import com.squareup.okhttp.OkHttpClient;
 
 import java.util.HashMap;

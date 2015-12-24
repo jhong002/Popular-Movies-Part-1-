@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network.request;
 
 /**
  * Created by jhong on 12/17/15.

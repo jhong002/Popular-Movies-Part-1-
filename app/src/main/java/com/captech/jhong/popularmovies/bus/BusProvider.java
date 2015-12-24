@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.bus;
 
 import com.squareup.otto.Bus;
 import com.squareup.otto.ThreadEnforcer;

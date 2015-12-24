@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 
+import com.captech.jhong.popularmovies.AppConstants;
+import com.captech.jhong.popularmovies.fragments.MoreInfoFragment;
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieResponse;
+import com.captech.jhong.popularmovies.bus.GetDiscoverMovieResponseEvent;
+import com.captech.jhong.popularmovies.model.PopularMoviesCache;
+import com.captech.jhong.popularmovies.R;
+import com.captech.jhong.popularmovies.model.Result;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.model;
 
 import android.app.Application;
 

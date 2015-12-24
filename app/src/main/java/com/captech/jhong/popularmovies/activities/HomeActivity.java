@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -6,6 +6,9 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import com.captech.jhong.popularmovies.R;
+import com.captech.jhong.popularmovies.fragments.HomeFragment;
 
 public class HomeActivity extends AppCompatActivity {
     private Toolbar mToolbar;

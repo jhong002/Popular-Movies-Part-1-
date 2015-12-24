@@ -1,4 +1,6 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
+
+import com.captech.jhong.popularmovies.network.request.NetworkRequest;
 
 import java.util.concurrent.LinkedBlockingQueue;
 

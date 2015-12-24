@@ -1,4 +1,7 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.bus;
+
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieResponse;
+import com.captech.jhong.popularmovies.network.HttpResponseStatus;
 
 /**
  * Created by jhong on 12/17/15.

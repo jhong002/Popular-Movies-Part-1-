@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,11 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.captech.jhong.popularmovies.R;
+import com.captech.jhong.popularmovies.activities.MoreInfoActivity;
+import com.captech.jhong.popularmovies.AppConstants;
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieResponse;
+import com.captech.jhong.popularmovies.model.Result;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

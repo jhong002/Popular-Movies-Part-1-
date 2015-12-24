@@ -1,4 +1,6 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.model;
+
+import com.captech.jhong.popularmovies.bus.GetDiscoverMovieResponseEvent;
 
 /**
  * Created by jhong on 12/23/15.

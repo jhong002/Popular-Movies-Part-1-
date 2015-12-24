@@ -1,4 +1,7 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
+
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieRequest;
+import com.captech.jhong.popularmovies.network.request.NetworkRequestSender;
 
 /**
  * Created by jhong on 12/21/15.

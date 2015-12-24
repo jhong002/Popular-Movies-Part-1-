@@ -1,4 +1,6 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
+
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieResponse;
 
 import retrofit.Call;
 import retrofit.http.GET;

@@ -1,9 +1,11 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+
+import com.captech.jhong.popularmovies.network.request.NetworkRequest;
 
 public class NetworkUtils {
     private static final String TAG = NetworkUtils.class.getSimpleName();

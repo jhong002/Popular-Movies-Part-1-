@@ -1,6 +1,8 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network.request;
 
 import android.content.Context;
+
+import com.captech.jhong.popularmovies.network.NetworkParams;
 
 import retrofit.Retrofit;
 

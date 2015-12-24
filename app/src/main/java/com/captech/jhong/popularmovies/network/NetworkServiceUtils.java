@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.network;
 
 import java.net.CookieManager;
 import java.net.CookiePolicy;

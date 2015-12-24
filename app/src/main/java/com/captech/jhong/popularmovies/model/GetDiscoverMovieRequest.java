@@ -1,8 +1,17 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.model;
 
 import android.content.Context;
 import android.util.Log;
 
+import com.captech.jhong.popularmovies.AppConstants;
+import com.captech.jhong.popularmovies.BuildConfig;
+import com.captech.jhong.popularmovies.bus.BusProvider;
+import com.captech.jhong.popularmovies.bus.GetDiscoverMovieResponseEvent;
+import com.captech.jhong.popularmovies.network.HttpResponseStatus;
+import com.captech.jhong.popularmovies.network.NetworkParams;
+import com.captech.jhong.popularmovies.network.TheMovieDbService;
+import com.captech.jhong.popularmovies.network.request.NetworkRequest;
+import com.captech.jhong.popularmovies.network.request.NetworkRequestSender;
 import com.squareup.otto.Bus;
 
 import java.io.IOException;

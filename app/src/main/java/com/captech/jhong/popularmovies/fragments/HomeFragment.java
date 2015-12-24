@@ -1,4 +1,4 @@
-package com.captech.jhong.popularmovies;
+package com.captech.jhong.popularmovies.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -16,6 +16,19 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.captech.jhong.popularmovies.AppConstants;
+import com.captech.jhong.popularmovies.bus.BusProvider;
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieRequest;
+import com.captech.jhong.popularmovies.model.GetDiscoverMovieResponse;
+import com.captech.jhong.popularmovies.bus.GetDiscoverMovieResponseEvent;
+import com.captech.jhong.popularmovies.adapters.HomePageAdapter;
+import com.captech.jhong.popularmovies.network.HttpResponseStatus;
+import com.captech.jhong.popularmovies.network.request.NetworkRequestSender;
+import com.captech.jhong.popularmovies.network.NetworkUtils;
+import com.captech.jhong.popularmovies.model.PopularMoviesApp;
+import com.captech.jhong.popularmovies.model.PopularMoviesCache;
+import com.captech.jhong.popularmovies.R;
+import com.captech.jhong.popularmovies.network.RequestQueueUtils;
 import com.squareup.otto.Bus;
 import com.squareup.otto.Subscribe;
 
